@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+body{
+    background-image: url(./b-r-ambedkar-bihar-university-l-s-college-patna-colleges-1n2lvoz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #000000d3;
+    /* backdrop-filter: blur(5px); */
+}
+table,th,td{
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    width: 400px;
+}
